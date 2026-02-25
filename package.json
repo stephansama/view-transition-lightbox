@@ -17,7 +17,8 @@
     "plugins": [
       "prettier-plugin-tailwindcss",
       "prettier-plugin-packagejson"
-    ]
+    ],
+    "quoteProps": "consistent"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.2.1",

@@ -3,7 +3,7 @@
 @plugin "daisyui";
 
 body {
-  @apply min-h-screen flex items-center justify-center bg-[#1e1e2e] text-[#cdd6f4];
+  @apply flex min-h-screen items-center justify-center bg-[#1e1e2e] text-[#cdd6f4];
 }
 
 #app {
@@ -11,13 +11,13 @@ body {
 }
 
 #img-container {
-  @apply grid grid-cols-4 gap-4 m-4;
+  @apply m-4 grid grid-cols-4 gap-4;
 }
 
 #img-container > img {
-  @apply w-20 aspect-square;
+  @apply aspect-square w-20;
 }
 
 #litebox {
-  @apply absolute bg-black/40 h-screen w-screen flex flex-col gap-4 text-4xl items-center justify-center;
+  @apply absolute flex h-screen w-screen flex-col items-center justify-center gap-4 bg-black/40 text-4xl;
 }
